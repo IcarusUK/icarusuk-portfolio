@@ -42,7 +42,7 @@ export default function Contact() {
 
       <div className="max-w-4xl mx-auto flex flex-col lg:flex-row gap-12 z-10 relative">
         <div className="flex-1 space-y-6 font-mono">
-          <p className="text-lg text-white/80">Let's connect and build something great together.</p>
+          <p className="text-lg text-white/80">Let&apos;s connect and build something great together.</p>
 
           <div className="space-y-2">
             <div className="flex items-center gap-3">
