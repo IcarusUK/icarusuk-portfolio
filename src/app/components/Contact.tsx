@@ -66,10 +66,15 @@ export default function Contact() {
           </div>
         </div>
 
-        <form className="flex-1 space-y-6 font-mono">
+        <form 
+        className="flex-1 space-y-6 font-mono"
+        action="https://formspree.io/f/mgvzoplk"
+        method="POST"
+        >
           <div>
             <label className="block text-sm text-white/70 mb-1">Name</label>
             <input
+              name="name"
               type="text"
               className="w-full bg-[#1e293b] border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-400"
               placeholder="Your name"
@@ -79,6 +84,7 @@ export default function Contact() {
           <div>
             <label className="block text-sm text-white/70 mb-1">Email</label>
             <input
+              name="email"
               type="email"
               className="w-full bg-[#1e293b] border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-400"
               placeholder="your@email.com"
@@ -88,6 +94,7 @@ export default function Contact() {
           <div>
             <label className="block text-sm text-white/70 mb-1">Message</label>
             <textarea
+              name="message"
               rows={5}
               className="w-full bg-[#1e293b] border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-400"
               placeholder="Leave a message :)"

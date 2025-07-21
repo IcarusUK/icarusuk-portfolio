@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
         <div className="space-y-1 text-white/60">
           <p>© IcarusUK.dev {year}</p>
-          <p>Version: 1.0.1</p>
+          <p>Version: 1.0.2</p>
           <p>Published: 21/07/2025</p>
         </div>
 
