@@ -129,9 +129,10 @@ export default function Timeline() {
 
               return (
                 <div key={idx} className="flex items-center h-12">
-                  <div className="w-64 font-mono text-sm text-white/80 text-right pr-4">
-                    {entry.title}
-                  </div>
+                  <div className="w-64 font-mono text-sm text-white/80 text-right pr-4 bg-[#0f172a] sticky left-0 z-10">
+  {entry.title}
+</div>
+
                   <div
                     className={`h-4 rounded-full ${
                       entry.type === 'education' ? 'bg-emerald-400' : 'bg-cyan-400'

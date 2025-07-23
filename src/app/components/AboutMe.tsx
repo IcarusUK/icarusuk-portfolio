@@ -39,12 +39,13 @@ export default function AboutMe() {
         </p>
 
         <p>
-          My long-term goal is to work in cyber security, but I&apos;m eager to first contribute to impactful software projects and strengthen my abilities in team environments. I&apos;m always up for a challenge and ready to take opportunities in cyber security whenever they arise.
+          I began learning Spanish at an early age and am currently working to rebuild my fluency. I believe being multilingual is essential in today&apos;s globalised world and strive to maintain that skill alongside my technical work.
         </p>
 
         <p>
-          I began learning Spanish at an early age and am currently working to rebuild my fluency. I believe being multilingual is essential in today&apos;s globalised world and strive to maintain that skill alongside my technical work.
+          My long-term goal is to work in cyber security, but I&apos;m eager to first contribute to impactful software projects and strengthen my abilities in team environments. I&apos;m always up for a challenge and ready to take opportunities in cyber security whenever they arise.
         </p>
+
       </motion.div>
     </section>
   );
