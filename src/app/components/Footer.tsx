@@ -49,6 +49,12 @@ export default function Footer() {
                 <h3 className="text-lg font-bold mb-2">Changelog</h3>
                 <ul className="space-y-4">
                   <li>
+                    <p className="font-semibold">v1.0.5</p>
+                    <ul>
+                      <li>Updated CV download file</li>
+                    </ul>
+                  </li>
+                  <li>
                     <p className="font-semibold">v1.0.4</p>
                     <ul>
                       <li>Updated skills section</li>
