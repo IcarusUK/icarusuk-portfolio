@@ -11,8 +11,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
         <div className="space-y-1 text-white/60">
           <p>© IcarusUK.dev {year}</p>
-          <p>Version: 1.0.3</p>
-          <p>Published: 23 July 2025</p>
+          <p>Version: 1.0.4</p>
+          <p>Published: 11 August 2025</p>
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -48,6 +48,12 @@ export default function Footer() {
               <div>
                 <h3 className="text-lg font-bold mb-2">Changelog</h3>
                 <ul className="space-y-4">
+                  <li>
+                    <p className="font-semibold">v1.0.4</p>
+                    <ul>
+                      <li>Updated skills section</li>
+                    </ul>
+                  </li>
                   <li>
                     <p className="font-semibold">v1.0.3</p>
                     <ul className="list-disc list-inside">

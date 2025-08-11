@@ -14,35 +14,47 @@ import {
   SiAdobe,
   SiMysql,
   SiJirasoftware,
+  SiDotnet,
+  SiDocker,
+  SiGit,
+  SiApachenetbeanside
 } from 'react-icons/si';
-import { FaDatabase, FaProjectDiagram } from 'react-icons/fa';
+import { FaDatabase, FaMicrosoft, FaProjectDiagram } from 'react-icons/fa';
 
 const skillGroups = {
   Languages: [
-    { name: 'JavaScript', icon: <SiJavascript />, experience: '6+ Years (A Level)' },
-    { name: 'TypeScript', icon: <SiTypescript />, experience: '3+ Years (University)' },
-    { name: 'HTML', icon: <SiHtml5 />, experience: '8+ Years (GCSE)' },
-    { name: 'CSS', icon: <SiCss3 />, experience: '8+ Years (GCSE)' },
-    { name: 'Python', icon: <SiPython />, experience: '8+ Years (GCSE & Personal)' },
-    { name: 'C#', icon: <FaProjectDiagram />, experience: '6+ Years (Personal)' },
-    { name: 'Java', icon: <FaProjectDiagram />, experience: '6+ Years (A Level & Personal)' },
-    { name: 'SQL', icon: <FaDatabase />, experience: '6+ Years (A Level)' },
-    { name: 'XML', icon: <SiHtml5 />, experience: '6+ Years (Personal)' },
-    { name: 'JSP', icon: <FaProjectDiagram />, experience: '3+ Years (University)' },
+    { name: 'JavaScript', icon: <SiJavascript />, experience: '6 Years (A Level)' },
+    { name: 'TypeScript', icon: <SiTypescript />, experience: '3 Years (University)' },
+    { name: 'HTML', icon: <SiHtml5 />, experience: '8 Years (GCSE)' },
+    { name: 'CSS', icon: <SiCss3 />, experience: '8 Years (GCSE)' },
+    { name: 'Python', icon: <SiPython />, experience: '8 Years (GCSE & Personal/Freelance)' },
+    { name: 'C#', icon: <FaProjectDiagram />, experience: '6 Years (Personal/Freelance)' },
+    { name: 'Java', icon: <FaProjectDiagram />, experience: '6 Years (A Level & Personal)' },
+    { name: 'SQL', icon: <FaDatabase />, experience: '6 Years (A Level)' },
+    { name: 'XML', icon: <SiHtml5 />, experience: '6 Years (Personal)' },
+    { name: 'JSP', icon: <FaProjectDiagram />, experience: '3 Years (University)' },
+    { name: 'JSX', icon: <SiReact />, experience: '2 Years (University)'},
   ],
   Frameworks: [
-    { name: 'React', icon: <SiReact />, experience: '3+ Years (University)' },
-    { name: 'Next.js', icon: <SiNextdotjs />, experience: '2+ Years (Personal)' },
-    { name: 'Firebase', icon: <SiFirebase />, experience: '1 Year (Personal)' },
-    { name: 'Google APIs', icon: <SiGoogle />, experience: '1 Year (Personal)' },
+    { name: 'React', icon: <SiReact />, experience: '3 Years (University)' },
+    { name: 'Next.js', icon: <SiNextdotjs />, experience: '2 Years (Personal/Freelance)' },
+    { name: '.NET', icon: <SiDotnet />, experience: '6 Years (Personal/Freelance'},
+    { name: 'Firebase', icon: <SiFirebase />, experience: '1 Year (Personal/Freelance)' },
+    { name: 'Google APIs', icon: <SiGoogle />, experience: '1 Year (Personal/Freelance)' },
   ],
   Tools: [
-    { name: 'Adobe Creative Suite', icon: <SiAdobe />, experience: '8+ Years (Personal & Esports)' },
-    { name: 'SQL (MySQL)', icon: <SiMysql />, experience: '6+ Years (A Level)' },
-    { name: 'Agile', icon: <SiJirasoftware />, experience: '3+ Years (University)' },
-    { name: 'Scrum', icon: <FaProjectDiagram />, experience: '3+ Years (University)' },
-    { name: 'Graphic Design', icon: <SiAdobe />, experience: '8+ Years (GCSE & Personal)' },
-    { name: 'Marketing', icon: <FaProjectDiagram />, experience: '4+ Years (Personal & Esports)' },
+    { name: 'Adobe Creative Suite', icon: <SiAdobe />, experience: '8 Years (Personal & Esports)' },
+    { name: 'SQL (MySQL)', icon: <SiMysql />, experience: '6 Years (A Level)' },
+    { name: 'Docker', icon: <SiDocker />, experience: '1 Year (Personal/Freelance)'},
+    { name: 'Agile', icon: <SiJirasoftware />, experience: '3 Years (University)' },
+    { name: 'Scrum', icon: <FaProjectDiagram />, experience: '3 Years (University)' },
+    { name: 'Graphic Design', icon: <SiAdobe />, experience: '8 Years (GCSE & Personal)' },
+    { name: 'Marketing', icon: <FaProjectDiagram />, experience: '4 Years (Personal & Esports)' },
+    { name: 'CI/CD (Git)', icon: <SiGit />, experience: '3 Years (University)'},
+  ],
+  IDEs: [
+    { name: 'VS Code', icon: <FaMicrosoft />, experience: '8 Years (All fields)'},
+    { name: 'Apache NetBeans', icon: <SiApachenetbeanside />, experience: '3 Years (University)'}
   ],
 };
 
